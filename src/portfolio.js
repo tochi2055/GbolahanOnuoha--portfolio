@@ -19,9 +19,9 @@ const illustration = {
 
 const greeting = {
   username: "Nyikwagh Victor",
-  title: "Hi all, I'm Nyikwagh Victor",
+  title: "Nyikwagh Victor",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer / Devops Enginer / AI Enthusiast."
+    "A passionate Software Developer | Devops Enginer | AI Enthusiast."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1i2zOUfFx5PqO9nW97rYjLtGbqRXccBoSn9-aUHmX338/edit?usp=sharing", // Set to empty to hide the button
@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -60,16 +60,17 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    // 💻 Frontend
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -77,43 +78,84 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "aws",
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+
+    // ☁️ DevOps
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "YAML",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-sync"
+    },
+    {
+      skillName: "Monitoring",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Cloud",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "Security",
+      fontAwesomeClassname: "fas fa-shield-alt"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
+
+
+  // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -127,11 +169,11 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       desc: "Participated in the research of Application of Machine Learing in the Detection of Diabetes and published a paper.",
       descBullets: [
-        
+
       ]
     },
-    
-    
+
+
   ]
 };
 
@@ -167,8 +209,8 @@ const workExperiences = {
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – May 2020",
       desc: "Dsigned and deployed end-to-end machine learning pipelines for predictive analytics.",
-      
-      
+
+
     },
     {
       role: "DevOps Engineer",
@@ -176,7 +218,7 @@ const workExperiences = {
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "April  2020  –  September 2023",
       desc: "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions for automated deployments."
-   
+
     },
     {
       role: "Software Engineer Intern",
@@ -249,7 +291,7 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
- 
+
       ]
     },
     {
@@ -272,12 +314,12 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1dzi2QiPk-lCVx3HbxaZIi9U31hTihB0F/view?usp=sharing"},
-        
+        { name: "Certification", url: "https://drive.google.com/file/d/1dzi2QiPk-lCVx3HbxaZIi9U31hTihB0F/view?usp=sharing" },
+
       ]
     }
 
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -287,14 +329,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/posts/victor-nyikwagh-83155a16b_frontenddevelopment-uxdesign-webdev-activity-7330224881948684289--Lxh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACh7iSUBZ9OqIAtsZwbKeJMOHb5oRRELHBY",
+      title: "Why Frontend Developers Should Think Like UX Designers - Nyikwagh victor",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Because clean code means nothing if your user is confused."
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -351,7 +393,7 @@ const contactInfo = {
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+234 8117116646.",
   email_address: "victorterry25@gmail.com.",
-}; 
+};
 
 
 
