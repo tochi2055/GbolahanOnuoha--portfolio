@@ -19,7 +19,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            Nyikwagh Victor
+            Tochukwu Onuoha
           </a>
         </p>
       </div>

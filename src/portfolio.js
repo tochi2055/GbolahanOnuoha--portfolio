@@ -18,8 +18,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nyikwagh Victor",
-  title: "Nyikwagh Victor",
+  username: "Tochukwu Onuoha",
+  title: "Tochukwu Onuoha",
   subTitle: emoji(
     "A passionate Software Developer | Devops Enginer | AI Enthusiast."
   ),
@@ -32,7 +32,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/victortterry",
-  linkedin: "https://www.linkedin.com/in/victor-nyikwagh-83155a16b/",
+  linkedin: "https://www.linkedin.com/in/tochukwu-gbolahan-onuoha-51a883368/",
   gmail: "victorterry25@gmail.com",
   gitlab: "https://gitlab.com/victorterry",
   medium: "https://medium.com/@victorterry25",
@@ -164,8 +164,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Veritas University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Memorial University, Newfoundland and Labrador",
+      logo: require("./assets/images/harvardLogo.png"), 
       subHeader: "Bachelor of Science in Computer Science",
       desc: "Participated in the research of Application of Machine Learing in the Detection of Diabetes and published a paper.",
       descBullets: [
@@ -206,7 +206,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "REKEVIDA",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("COMM.PNG"),
       date: "June 2018 – May 2020",
       desc: "Dsigned and deployed end-to-end machine learning pipelines for predictive analytics.",
 
@@ -334,7 +334,7 @@ const blogSection = {
   blogs: [
     {
       url: "https://www.linkedin.com/posts/victor-nyikwagh-83155a16b_frontenddevelopment-uxdesign-webdev-activity-7330224881948684289--Lxh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACh7iSUBZ9OqIAtsZwbKeJMOHb5oRRELHBY",
-      title: "Why Frontend Developers Should Think Like UX Designers - Nyikwagh victor",
+      title: "Why Frontend Developers Should Think Like UX Designers - Tochukwu Onuoha",
       description:
         "Because clean code means nothing if your user is confused."
     },
@@ -374,9 +374,9 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  // podcast: [
+  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  // ]
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -391,8 +391,8 @@ const resumeSection = {
 const contactInfo = {
   title: "Contact Me ☎️ ",
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+234 8117116646.",
-  email_address: "victorterry25@gmail.com.",
+  number: "+1(790) 697-7187.",
+  email_address: "tgonuoha@mun.ca.",
 };
 
 
