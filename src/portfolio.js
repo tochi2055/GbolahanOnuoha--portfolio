@@ -263,15 +263,15 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/victortterry/Animation-demo"
+          url: "https://github.com/victortterry/Taskflow"
         }
         //  you can add extra buttons here.
       ]
     },
      {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/workspaces/nyikwagh-portfolio/src/assets/images/better.PNG"),
+      projectName: "shopamour",
+      projectDesc: "e-commerce",
       footerLink: [
         {
           name: "Visit Website",
@@ -288,7 +288,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/victortterry/iphone-interface"
+          url: "https://github.com/victortterry/devfolio"
         }
       ]
     }
