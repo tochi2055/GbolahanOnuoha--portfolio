@@ -206,7 +206,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "REKEVIDA",
-      companylogo: require("COMM.PNG"),
+      companylogo: require("/workspaces/nyikwagh-portfolio/public/COMM.PNG"),
       date: "June 2018 – May 2020",
       desc: "Dsigned and deployed end-to-end machine learning pipelines for predictive analytics.",
 
