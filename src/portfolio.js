@@ -21,7 +21,7 @@ const greeting = {
   username: "Tochukwu Onuoha",
   title: "Tochukwu Onuoha",
   subTitle: emoji(
-    "A passionate Software Developer | Devops Enginer | AI Enthusiast."
+    " Software Developer | Devops Enginer | AI Enthusiast."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1i2zOUfFx5PqO9nW97rYjLtGbqRXccBoSn9-aUHmX338/edit?usp=sharing", // Set to empty to hide the button
@@ -165,7 +165,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Memorial University, Newfoundland and Labrador",
-      logo: require("./assets/images/harvardLogo.png"), 
+      logo: require("/workspaces/nyikwagh-portfolio/src/assets/images/UNI.PNG"), 
       subHeader: "Bachelor of Science in Computer Science",
       desc: "Participated in the research of Application of Machine Learing in the Detection of Diabetes and published a paper.",
       descBullets: [
@@ -206,7 +206,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "REKEVIDA",
-      companylogo: require("/workspaces/nyikwagh-portfolio/public/COMM.PNG"),
+      companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/COMM.PNG"),
       date: "June 2018 – May 2020",
       desc: "Dsigned and deployed end-to-end machine learning pipelines for predictive analytics.",
 
@@ -215,7 +215,7 @@ const workExperiences = {
     {
       role: "DevOps Engineer",
       company: "TechNova Solutions",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/OZE.PNG"),
       date: "April  2020  –  September 2023",
       desc: "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions for automated deployments."
 
@@ -246,16 +246,41 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "moneyamour",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/victortterry/moneyamour"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+     {
+      image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/victortterry"
+          url: "https://github.com/victortterry/Animation-demo"
         }
         //  you can add extra buttons here.
       ]
     },
+     {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/victortterry/shopamour"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
@@ -263,7 +288,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/victortterry"
+          url: "https://github.com/victortterry/iphone-interface"
         }
       ]
     }
