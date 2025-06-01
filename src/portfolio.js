@@ -216,7 +216,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Beaufort Solutions Inc. ",
-      companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/EBSCO.PNG"),
+      companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/Beaufort.PNG"),
       date: "2022  –  2024",
       desc: "Collaborate across cross-functional teams to deliver tailored financial software solutions"
 
@@ -315,21 +315,21 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1wkS5mU5fYr3J4i1JpOBBO3vyfpPY8zqb/view?usp=sharing"
         },
 
       ]
     },
     {
-      title: "  ZURI  ",
+      title: " NASSCOM  ",
       subtitle:
-        "   Full Stack Web Developer           ",
+        "   Full Stack Developer           ",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1TRUhZs1mv6pGb1CIlsnujruUzFsCnAva/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1CwuHhSwjJm0tmHTTZjVkUjH5tTUAIR0J/view?usp=sharingb"
         }
       ]
     },
@@ -340,7 +340,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/1dzi2QiPk-lCVx3HbxaZIi9U31hTihB0F/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/1BV9jOpSf0p5zD6D0F6mQ1xIgYdt93rZm/view?usp=sharing" },
 
       ]
     }
