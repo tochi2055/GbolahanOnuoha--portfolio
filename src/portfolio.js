@@ -166,7 +166,8 @@ const educationInfo = {
     {
       schoolName: "Memorial University, Newfoundland and Labrador",
       logo: require("/workspaces/nyikwagh-portfolio/src/assets/images/UNI.PNG"), 
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Science in Computer Science",             
+      subHeader: "St. John's, Canada",
       desc: "Participated in the research of Application of Machine Learing in the Detection of Diabetes and published a paper.",
       descBullets: [
 
@@ -207,25 +208,25 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Securities and Exchange Commission",
       companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/COMM.PNG"),
-      date: "June 2018 – May 2020",
-      desc: "Dsigned and deployed end-to-end machine learning pipelines for predictive analytics.",
+      date: "2019 – 2021 ",
+      desc: "Actively collaborated with DevOps teams to ensure smooth deployment pipelines, reducing downtime and build failures by 60%..",
 
 
     },
     {
-      role: "Front-End Developer",
-      company: "EBSCO Information Services ",
-      companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/OZE.PNG"),
-      date: "April  2020  –  September 2023",
-      desc: "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions for automated deployments."
+      role: "Software Developer",
+      company: "Beaufort Solutions Inc. ",
+      companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/EBSCO.PNG"),
+      date: "2022  –  2024",
+      desc: "Collaborate across cross-functional teams to deliver tailored financial software solutions"
 
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       company: "Harrow MS",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2024 -  Sep 2024",
-      desc: "Implemented MLOps workflows using Kubernetes, Docker, and CI/CD pipelines for seamless deployment.",
+      desc: "Contributed to the development of MLOps workflows leveraging Docker, Kubernetes, and CI/CD pipelines for AI-driven therapy support tools.",
     }
   ]
 };
