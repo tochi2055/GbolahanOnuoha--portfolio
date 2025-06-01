@@ -205,7 +205,7 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "REKEVIDA",
+      company: "Securities and Exchange Commission",
       companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/COMM.PNG"),
       date: "June 2018 – May 2020",
       desc: "Dsigned and deployed end-to-end machine learning pipelines for predictive analytics.",
@@ -213,8 +213,8 @@ const workExperiences = {
 
     },
     {
-      role: "DevOps Engineer",
-      company: "TechNova Solutions",
+      role: "Front-End Developer",
+      company: "EBSCO Information Services ",
       companylogo: require("/workspaces/nyikwagh-portfolio/src/assets/images/OZE.PNG"),
       date: "April  2020  –  September 2023",
       desc: "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions for automated deployments."
@@ -257,9 +257,9 @@ const bigProjects = {
       ]
     },
      {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/workspaces/nyikwagh-portfolio/src/assets/images/taskflow.PNG"),
+      projectName: "Taskflow",
+      projectDesc: "Organize your Task flow",
       footerLink: [
         {
           name: "Visit Website",
@@ -271,7 +271,7 @@ const bigProjects = {
      {
       image: require("/workspaces/nyikwagh-portfolio/src/assets/images/better.PNG"),
       projectName: "shopamour",
-      projectDesc: "e-commerce",
+      projectDesc: "E-commerce",
       footerLink: [
         {
           name: "Visit Website",
@@ -282,9 +282,9 @@ const bigProjects = {
     },
     
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/workspaces/nyikwagh-portfolio/src/assets/images/betterdevfo.PNG"),
+      projectName: "Devfolio",
+      projectDesc: "Desgin your dream portfolio",
       footerLink: [
         {
           name: "Visit Website",
