@@ -23,8 +23,8 @@ const greeting = {
   subTitle: emoji(
     " Software Developer | Devops Enginer | AI Enthusiast."
   ),
-  resumeLink:
-    "https://docs.google.com/document/d/1i2zOUfFx5PqO9nW97rYjLtGbqRXccBoSn9-aUHmX338/edit?usp=sharing", // Set to empty to hide the button
+  // resumeLink:
+  //   "https://docs.google.com/document/d/1ZmqICZ1oGu7RshzeDJMKz4DPL1agPqWqITgDk8l2QvY/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -309,7 +309,7 @@ const achievementSection = {
     {
       title: "Finops",
       subtitle:
-        " Finops  Certified Practitioner ",
+        " HNG INTERSHIP ",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -324,7 +324,7 @@ const achievementSection = {
       title: " NASSCOM  ",
       subtitle:
         "   Full Stack Developer           ",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("/workspaces/nyikwagh-portfolio/src/assets/images/Capture.PNG"),
       imageAlt: "Certification",
       footerLink: [
         {
@@ -359,7 +359,7 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://www.linkedin.com/posts/victor-nyikwagh-83155a16b_frontenddevelopment-uxdesign-webdev-activity-7330224881948684289--Lxh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACh7iSUBZ9OqIAtsZwbKeJMOHb5oRRELHBY",
+      url: "www.linkedin.com/in/tochukwu-gbolahan-onuoha-51a883368",
       title: "Why Frontend Developers Should Think Like UX Designers - Tochukwu Onuoha",
       description:
         "Because clean code means nothing if your user is confused."
