@@ -223,9 +223,9 @@ const workExperiences = {
     },
     {
       role: "Software Engineer",
-      company: "Harrow MS",
+      company: "ADP",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2024 -  Sep 2024",
+      date: "2024 - 2025",
       desc: "Contributed to the development of MLOps workflows leveraging Docker, Kubernetes, and CI/CD pipelines for AI-driven therapy support tools.",
     }
   ]
@@ -246,9 +246,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("/workspaces/nyikwagh-portfolio/src/assets/images/moneyamour.png"),
       projectName: "moneyamour",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Finance",
       footerLink: [
         {
           name: "Visit Website",
@@ -307,10 +307,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Finops",
+      title: "Devops",
       subtitle:
         " HNG INTERSHIP ",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("/workspaces/nyikwagh-portfolio/src/assets/images/HNG.PNG"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
